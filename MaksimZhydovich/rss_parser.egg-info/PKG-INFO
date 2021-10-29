@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: rss-parser
+Version: 1.1
+Summary: RSS Parser
+Home-page: UNKNOWN
+Author: Maksim Zhydovich
+Author-email: maksim.zhidovich@yandex.by
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Text Processing :: Linguistic
