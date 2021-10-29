@@ -11,9 +11,11 @@ class Printer:
             for article in news:
                 print(json.dumps({
                     "Title": article.get_title(),
-                    "Date": article.get_pub_date().isoformat(' '),
+                    "Date": article.get_pub_date(),
                     "Link": article.get_link()
                 }))
+                print("\n")
         else:
             for article in news:
                 print(article)
+                print("\n")

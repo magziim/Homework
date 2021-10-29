@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='rss_parser',
-      version='1.1',
+      version='1.3',
       description='RSS Parser',
       classifiers=[
           'License :: OSI Approved :: MIT License',
