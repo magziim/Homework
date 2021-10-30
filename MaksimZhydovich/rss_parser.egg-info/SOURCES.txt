@@ -1,3 +1,4 @@
+README.md
 setup.py
 rss_parser.egg-info/PKG-INFO
 rss_parser.egg-info/SOURCES.txt
