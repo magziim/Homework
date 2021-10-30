@@ -1,4 +1,4 @@
-from article import Article
+from .article import Article
 from fpdf import FPDF
 
 

@@ -2,6 +2,10 @@
 
 RSS reader is a command-line utility which receives RSS URL and prints results in human-readable format.
 
+```
+	python rss_reader.py ...
+```
+
 ## --json
 Example:
 ```	
