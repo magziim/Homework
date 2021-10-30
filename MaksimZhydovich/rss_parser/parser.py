@@ -41,7 +41,7 @@ class Parser:
                 try:
                     return datetime.datetime.strptime(date, date_format)
                 except Exception:
-                    print(f"Unknown date format {date}")
+                    continue
 
         for article in news:
             article_title = article.title.string
