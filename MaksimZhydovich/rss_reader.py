@@ -4,11 +4,18 @@ import logging
 
 
 def main():
+    # parse command line arguments
     args = CommandLineParser.parse_args()
+
+    # config logging of utility
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.WARNING)
     logger = logging.getLogger()
-    logger.debug(' '.join([f'{k}={v}' for k, v in vars(args).items()]))
-    Controller.manipulate(args)
+
+    # describe using arguments
+    logger.debug(' '.join([f'{arg}={val}' for arg, val in vars(args).items()]))
+
+    # execute operation using command line arguments
+    Controller.execute(args)
 
 
 if __name__ == "__main__":

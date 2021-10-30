@@ -1,0 +1,4 @@
+setuptools~=56.0.0
+fpdf~=1.7.2
+requests~=2.26.0
+beautifulsoup4~=4.9.3
